@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hw</title>
+  <script>
+      var words = ["Лишь утратив всё до конца, мы обретаем свободу.",
+                  "Это твоя жизнь, и она тановится короче каждую минуту",
+                   "Люди - рабы своих вещей"]
+      function work(){
+          alert("Работает. Не трогай!");
+      }
+      function word(){
+           for(var i = 0; i < words.length; i++){
+            alert(words[i]);
+           }  
+      }
+  </script>
+</head>
+<body>
+    <h1></h1>
+    <p><input value="Работает?" onclick="work()" type="button"></p>
+    <p><input value="Хм..." onclick="word()" type="button"></p>
+</body>
+</html>
